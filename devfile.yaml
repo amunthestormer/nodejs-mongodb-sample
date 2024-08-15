@@ -29,7 +29,7 @@ components:
       size: 1G
   - name: mongo
     container:
-      image: mongo
+      image: quay.io/centos7/mongodb-36-centos7
       env:
         - name: MONGODB_USER
           value: user
